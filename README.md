@@ -52,8 +52,8 @@ sudo apt install golang-go
 # Install Subfinder
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
-# Install Httpx
-go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+# Install Httpx-toolkit
+sudo apt install httpx-toolkit
 
 # Install Amass
 sudo apt install amass
